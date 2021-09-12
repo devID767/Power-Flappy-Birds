@@ -106,7 +106,7 @@ public class Mover : MonoBehaviour
         }
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
         transform.Translate(Vector3.left * speed * Time.deltaTime);
     }
